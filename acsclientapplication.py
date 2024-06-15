@@ -4,7 +4,7 @@ import tkinter as tk
 import threading
 from PIL import Image, ImageTk
 
-rtmp_url = "rtmp://158.160.167.74:1935/live/stream"
+rtmp_url = "rtmp://localhost:1935/live/stream"
 image_path = "default.jpg"
 
 # Функция для закрытия окна Tkinter
